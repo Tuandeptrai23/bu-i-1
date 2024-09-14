@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+</head>
+<body>
+    <h1>Thẻ hiện thị hình ảnh</h1>
+    <br>
+    <pre>
+        - Sử dụng thẻ img để hiện thị hình ảnh
+        -img các thuộc tính thường dùng
+        + src = url (nguồn tài nguyên ảnh)
+        ++url = các loại cơ bản (đường dẫn tuyệt đối \ và tương đối)
+            ++url : tuyệt đối 
+            [giao thuc] : //dommain/path
+            ví dụ : 
+
+    </pre>
+    <hr>
+    <h2>đường dẫn tuyệt đối</h2>
+    <img src="https://cdnphoto.dantri.com.vn/cP9ibAhZ8DxL-__vLnWWd-9QyhE=/thumb_w/1020/2024/09/13/30fbf9aec613614d3802-1726218928093.jpg" width="50px"/>
+    <h2>đường dẫn tương đối</h2>
+    <br>
+    <img src="https://cdnphoto.dantri.com.vn/cP9ibAhZ8DxL-__vLnWWd-9QyhE=/thumb_w/1020/2024/09/13/30fbf9aec613614d3802-1726218928093.jpg" width="50px"/>
+    <h2>su dụng hình ảnh cùng  thư mục chứa html</h2>
+    <img src="logo.webp" alt="logo" width="60px">
+    <h2>sử dụng hình ảnh ngoài thư mục html</h2>
+    <br>
+    <img src="../anh1.webp" alt="anh 1" width="60px" >
+</body>
+</html>
